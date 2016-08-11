@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://ssjj.4399.com/
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+URL=http://ssjj.4399.com/
+IDList=
+IconFil=http://cdn.ssjj.3304399.com/ssjj.ico
+IconIndex=1
