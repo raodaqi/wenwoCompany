@@ -5,10 +5,10 @@ $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         // IMGURL =  $(".logo-bar").attr("src");
-        $(".white").attr("src","img/logo_black.png");
+        $(".white").attr("src","img/MW_black.png");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $(".white").attr("src","img/logo_white.png");
+        $(".white").attr("src","img/MW_white.png");
     }
 });
 
@@ -31,7 +31,7 @@ $("#services .black-photo").on("mouseover",function(){
 })
 
 $(".page-scroll .button").on("mouseover",function(){
-    $(".button img").attr("src","./img/products/download_ios_on.png");
+    $(".button img").attr("src","./img/anzhuo_black.png");
 }).on("mouseout",function(){
-    $(".button img").attr("src","./img/products/download_ios.png");
+    $(".button img").attr("src","./img/anzhuo.png");
 })
